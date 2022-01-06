@@ -1,6 +1,11 @@
 package java_programming;
 
 public class Happy_or_Not_Number_ {
+	/**
+	 * The first few happy numbers are 
+	 * 1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97, 100, 
+	 * 
+	 */
 
 	public static int isHappyNumber(int num) {
 		int rem = 0, sum = 0;
