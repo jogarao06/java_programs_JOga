@@ -2,8 +2,9 @@ package java_programming;
 
 public class Armstrong_number {
 	/**
-	 * Description: Check the given number is prime number or not  
-	 * 
+	 * Description:Armstrong number is a number 
+	 * that is equal to the sum of cubes of its digits.
+	 * For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
 	 */
 	public static void main(String[] args) {
 		int num = 153;

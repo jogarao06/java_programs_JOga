@@ -4,18 +4,17 @@ public class PallindromeNumber {
 
 	public static void main(String[] args) {
 		{
-			int num = 123, rev = 0, rem, temp = num;
-			while (num > 0) {
-				rem = num % 10;
-				num = num / 10;
-				rev = (rev * 10) + rem;
+			int num=121,rev=0,rem,temp=num;
+			while(num>0) {
+				rem=num%10;
+				num=num/10;
+				rev=(rev*10)+rem;
 			}
-			System.out.println("Reverse of num is : " + rev);
-			if (temp == rev) {
-				System.out.println("your number is Pallindrome number");
-			} else {
-				System.out.println("your number is not Pallindrome number");
-			}
+			if (temp == rev)
+				System.out.println(rev + " these number is Pallindrome number");
+			else
+				System.out.println(rev + " these  number is not Pallindrome number");
+
 		}
 	}
 }
