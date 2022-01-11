@@ -3,7 +3,7 @@ package JavaProgramming_StringS;
 public class Occurannce_ofeachCharater {
 
 	public static void main(String[] args) {
-		String str="javavvaaa";
+		String str="javajjjvvaaa";
 		String s=str.toUpperCase();
 		char[] s1=s.toCharArray();
 		
