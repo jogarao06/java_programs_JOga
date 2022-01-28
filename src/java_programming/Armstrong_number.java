@@ -14,13 +14,13 @@ public class Armstrong_number {
 		while (num > 0)
 		{
 			int rem = num % 10;
-			sum = sum + (rem * rem * rem);
 			num = num / 10;
+			sum = sum + (rem * rem * rem);
 		}
 		if (sum == temp)
-			System.out.println(sum +" is a Armstrong_number");
+			System.out.println(temp +" is a Armstrong_number");
 		else
-			System.out.println(sum +" is not a Armstrong_number");
+			System.out.println(temp +" is not a Armstrong_number");
 
 	}
 }

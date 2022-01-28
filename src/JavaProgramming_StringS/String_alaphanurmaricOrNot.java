@@ -3,7 +3,7 @@ package JavaProgramming_StringS;
 public class String_alaphanurmaricOrNot {
 
 	public static void main(String[] args) {
-		String str="joga1212";
+		String str="joga";
 		boolean flag=false;
 		
 		for(int i=0;i<str.length();i++) {
